@@ -1,3 +1,4 @@
+package Class;
 import java.util.Arrays;
 import javax.swing.JButton;
 import javax.swing.JFrame;

@@ -1,3 +1,4 @@
+package Class;
 public class Cacul {
     public static void main(String[] in)
     {

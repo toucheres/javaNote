@@ -1,4 +1,4 @@
-package First;
+package Class;
 
 import java.awt.*;
 import javax.swing.border.*;
@@ -11,7 +11,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 
@@ -311,6 +310,7 @@ public class demo25_3_3 {
         mainPanel.add(loginPanel, BorderLayout.CENTER);
 
         wind.setVisible(true);
+
     }
 
 }
