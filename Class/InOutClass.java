@@ -19,5 +19,14 @@ public class InOutClass
         System.out.println("输出差为" + caculate.mius());
         in.close();
     }
+    
+    public static void main_2(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Caculate caculate = new Caculate_son();
+        caculate.tpa = in.nextInt();
+        caculate.tpb = in.nextInt();
+        System.out.println("输出差为" + ((Caculate_son)caculate).add_son(1,2));
+        in.close();
+    }
 
 }
